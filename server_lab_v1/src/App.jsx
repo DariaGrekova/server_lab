@@ -1,3 +1,4 @@
+import Sidebar from './components/Sidebar'
 import './App.css'
 
 function App() {
@@ -6,37 +7,7 @@ function App() {
 		<>
 			<div class="app">
 				{/*==================== SIDEBAR ==================== */}
-				<aside class="sidebar">
-					<div class="sidebar__logo">
-						<div class="logo-icon">▱</div> <span>Server Lab</span>
-					</div>
-					<nav class="sidebar__navigation"> <a href="#" class="nav-item nav-item--active"> <span
-						class="nav-item__icon">⌂</span> <span>Главная</span> </a>
-						<div class="nav-group">
-							<div class="nav-group__title"> <span>Антикапкан</span> <span class="nav-group__arrow">⌃</span> </div> <a
-								href="#" class="nav-item"> <span class="nav-item__icon">⊕</span> <span>Обзор</span> </a> <a href="#"
-									class="nav-item"> <span class="nav-item__icon">◈</span> <span>VPN</span> </a> <a href="#" class="nav-item">
-								<span class="nav-item__icon">▤</span> <span>Сервер</span> </a> <a href="#" class="nav-item"> <span
-									class="nav-item__icon">⌘</span> <span>Сеть</span> </a>
-						</div>
-						<div class="nav-divider"></div> <a href="#" class="nav-item"> <span class="nav-item__icon">▤</span>
-							<span>Заметки</span> </a> <a href="#" class="nav-item"> <span class="nav-item__icon">⌬</span>
-							<span>Эксперименты</span> </a> <a href="#" class="nav-item"> <span class="nav-item__icon">△</span>
-							<span>Проблемы</span> </a> <a href="#" class="nav-item"> <span class="nav-item__icon">⚙</span>
-							<span>Настройки</span> </a>
-					</nav> {/*Sidebar project card */}
-					<div class="sidebar__project-card">
-						<div class="project-card__icon"> ⊕ </div>
-						<h3>Антикапкан</h3>
-						<p> Ваш учебный полигон для исследования сетей, VPN и серверов. </p> <a href="#" class="project-card__link">
-							Подробнее → </a>
-					</div> {/*Theme toggle */}
-					<div class="theme-toggle"> <span class="theme-toggle__icon">☼</span> <span>Светлая тема</span>
-						<div class="toggle toggle--active">
-							<div class="toggle__circle"></div>
-						</div>
-					</div>
-				</aside>
+				<Sidebar />
 				{/*==================== MAIN ==================== */}
 				<div class="main">
 					{/*==================== HEADER ==================== */}
