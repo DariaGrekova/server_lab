@@ -1,7 +1,8 @@
-const NavigationItem = () => {
+const NavigationItem = ({ icon, title }) => {
+
 	return (
-		<a href="#" className="nav-item nav-item--active">
-			<span className="nav-item__icon">⌂</span> <span>Главная</span>
+		<a href="#" className="nav-item">
+			<span className="nav-item__icon">{icon}</span> <span>{title}</span>
 		</a>
 	);
 };
