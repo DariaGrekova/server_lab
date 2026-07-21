@@ -38,7 +38,7 @@ input {
 	background: #ffffff;
 	border-right: 1px solid #f1f1f1;
 } /* Logo */
-.sidebar__logo {
+.logo {
 	display: flex;
 	align-items: center;
 	gap: 12px;
@@ -113,8 +113,8 @@ input {
 	margin: 18px 10px;
 	background: #f1f1f1;
 } /* Sidebar project card */
-.sidebar__project-card {
-	margin-top: auto;
+
+.project-card {
 	padding: 18px;
 	border: 1px solid #f1f1f1;
 	border-radius: 14px;
@@ -131,11 +131,11 @@ input {
 	background: #fff1e6;
 	border-radius: 9px;
 }
-.sidebar__project-card h3 {
+.project-card h3 {
 	margin-bottom: 6px;
 	font-size: 15px;
 }
-.sidebar__project-card p {
+.project-card p {
 	margin-bottom: 16px;
 	color: #6b7280;
 	font-size: 12px;
